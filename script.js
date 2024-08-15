@@ -4,7 +4,13 @@
 // let reversedSring = inputString.split("").reverse().join("");
 
 // console.log("reversed string of the input is:", reversedSring);
-
+// let stringVariable = "Hello World";
+// var reverseString = "";
+// for (i = stringVariable.length - 1; i >= 0; i--) {
+//   reverseString = reverseString + stringVariable[i];
+//   console.log(reverseString);
+// }
+// console.log(reverseString);
 // question2
 
 // let numbers = [1, 2, 3, 4, 5];
@@ -21,6 +27,9 @@
 
 // let normalString = inputString.toLowerCase();
 // let reversedString = normalString.split("").reverse().join("");
+// if (normalString == reversedString) {
+//   console.log("Your word is palindrome");
+// } else console.log("your word is not palindrome");
 
 // let isPalindromeCheck = normalString == reversedString;
 // console.log(isPalindromeCheck);
@@ -98,6 +107,18 @@
 // }
 // console.log(count);
 
+let str = "goal";
+let chatactertoCount = "l";
+
+let count = 0;
+
+for (let i = 0; i < str.length; i++) {
+  if (str[i] === chatactertoCount) {
+    count++;
+  }
+}
+console.log(count);
+
 // check if the number is prime or n0t
 
 // let number = prompt("Enter any number");
@@ -119,3 +140,27 @@
 // }
 
 // referencial data type
+// Remove duplicates from an Array
+// let duplicateArray = [1, 2, 2, 3, 4, 5, 6, 6, 7, 7, 7, 9];
+
+// let uniqueNumber = [];
+
+// for (i = 0; i < duplicateArray.length; i++) {
+//   isUnique = true;
+
+//   for (j = 0; j < uniqueNumber.length; j++) {
+//     if (duplicateArray[i] === uniqueNumber[i]) {
+//       isUnique = false;
+//     }
+//     if (isUnique) {
+//       uniqueNumber.push(duplicateArray[i]);
+//     }
+//   }
+// }
+// console.log(uniqueNumber);
+// for (i = 0; i < array.length; i++) {
+//   if (uniqueNumber.indexOf(array[i]) === -1) {
+//     uniqueNumber.push(array[i]);
+//   }
+// }
+// console.log(uniqueNumber);
