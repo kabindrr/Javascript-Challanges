@@ -107,17 +107,17 @@
 // }
 // console.log(count);
 
-let str = "goal";
-let chatactertoCount = "l";
+// let str = "goal";
+// let chatactertoCount = "l";
 
-let count = 0;
+// let count = 0;
 
-for (let i = 0; i < str.length; i++) {
-  if (str[i] === chatactertoCount) {
-    count++;
-  }
-}
-console.log(count);
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === chatactertoCount) {
+//     count++;
+//   }
+// }
+// console.log(count);
 
 // check if the number is prime or n0t
 
@@ -164,3 +164,65 @@ console.log(count);
 //   }
 // }
 // console.log(uniqueNumber);
+// let temperature = prompt("Enter the temperature");
+// // const celcToFer = () => {
+// //   return (temperature * 9) / 5 + 32;
+// // };
+
+// // console.log(celcToFer());
+
+// const ferToCelc = () => {
+//   return (temperature - 32) * (5 / 9);
+// };
+// console.log(ferToCelc());
+
+// const multiply = (a, b) => {
+//   return a * b;
+// };
+// console.log(multiply(5, 6));
+// const isPrime = (a) => {
+//   if (a <= 1) {
+//     return console.log("its not a prime");
+//   } else if (a % 2 == 0 && a % 3 == 0) {
+//     return console.log("Its not a prime");
+//   }
+//   return console.log("Its a prime");
+// };
+// isPrime(21);
+
+// const isEven = (a) => {
+//   if (a % 2 === 0) {
+//     console.log("It is an even");
+//   } else {
+//     console.log("Its not an even");
+//   }
+// };
+// isEven(8);
+
+// const isOdd = (a) => {
+//   if (a % 2 !== 0) {
+//     return console.log("Its a odd number");
+//   }
+//   console.log("its an even number");
+// };
+// isOdd(6);
+
+const person = {
+  bio: {
+    fName: "John",
+    lName: "Doe",
+    age: 20,
+    greet: function () {
+      console.log(`Hello from`, this.fName);
+    },
+  },
+  address: {
+    stret: "george street",
+    postcode: 20000,
+  },
+};
+
+console.log(person.address.stret);
+
+const { fName } = person.bio;
+console.log(fName);
